@@ -1,0 +1,29 @@
+{
+    "name": "saumini/ellipsis-textarea",
+    "description": "A Laravel Nova textarea field with ellipsis support",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Saumini\\EllipsisTextarea\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Saumini\\EllipsisTextarea\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
