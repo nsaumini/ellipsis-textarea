@@ -1,7 +1,5 @@
 # Nova Ellipsis Textarea
-A Laravel Nova text area field with ellipsis support.
-
-This field behaves same as Nova Textarea with addition of ellipsis support in index view.
+This field behaves same as Laravel Nova Textarea with addition of ellipsis support in index view.
 
 ## Installation
 
