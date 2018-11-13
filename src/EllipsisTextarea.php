@@ -1,6 +1,6 @@
 <?php
 
-namespace RhinoPartners\EllipsisTextarea;
+namespace Saumini\EllipsisTextarea;
 
 use Laravel\Nova\Fields\Textarea;
 
