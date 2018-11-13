@@ -20,3 +20,6 @@ public function fields(Request $request)
     ];
 }
 ```
+
+![Screenshot 1](.docs/example1.png)
+
