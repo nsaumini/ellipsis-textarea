@@ -21,5 +21,7 @@ public function fields(Request $request)
 }
 ```
 
+## Screenshot
+
 ![Screenshot 1](.docs/example1.png)
 
