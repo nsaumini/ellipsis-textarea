@@ -26,5 +26,5 @@ Default display length set to 50.
 
 ## Screenshot
 
-![Screenshot 1](.docs/example1.png)
+![Screenshot 1](https://raw.githubusercontent.com/nsaumini/ellipsis-textarea/master/.docs/example1.png)
 
