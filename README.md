@@ -16,10 +16,13 @@ public function fields(Request $request)
 {
     return [
         EllipsisTextarea::make('Copy')
-          ->maxlength(25),
+          ->displayLength(25),
     ];
 }
 ```
+
+Default display length set to 50.
+
 
 ## Screenshot
 

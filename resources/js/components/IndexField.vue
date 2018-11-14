@@ -7,7 +7,7 @@ export default {
     props: ['resourceName', 'field'],
     computed: {
 		truncatedValue: function () {
-			return this.field.value.length > this.field.maxlength ? this.field.value.substr(0, this.field.maxlength) + '...' 
+			return this.field.value.length > this.field.displayLength ? this.field.value.substr(0, this.field.displayLength) + '...' 
 				: this.field.value;
 		}
 	}

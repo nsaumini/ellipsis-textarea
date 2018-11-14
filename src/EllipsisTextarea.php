@@ -25,17 +25,17 @@ class EllipsisTextarea extends Textarea
      *
      * @var integer
      */
-    public $maxlength = 50;
+    public $displayLength = 50;
 
     /**
      * Set the maximum length used for the textarea in index view.
      *
-     * @param  integer $maxlength
+     * @param  integer $displayLength
      * @return $this
      */
-    public function maxlength($maxlength)
+    public function displayLength($displayLength)
     {
-        $this->maxlength = $maxlength;
+        $this->displayLength = $displayLength;
 
         return $this;
     }
@@ -48,7 +48,7 @@ class EllipsisTextarea extends Textarea
     public function jsonSerialize()
     {
         return array_merge(parent::jsonSerialize(), [
-            'maxlength' => $this->maxlength,
+            'displayLength' => $this->displayLength,
         ]);
     }
 }
